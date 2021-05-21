@@ -1,0 +1,33 @@
+# NEW CUSTOM EVENT FILE FOR TESTING
+
+# The format for DriverRequest events is:
+# <timestamp> DriverRequest <driver id> <location> <speed>
+# <location> is <row>,<col>
+
+# There are 5 Drivers
+
+0 DriverRequest Eric 100,10 5
+0 DriverRequest Frank 10,10 1
+0 DriverRequest Guy 18,2    2
+0 DriverRequest Hailey 27,34 6
+0 DriverRequest Isaac 100,100 7
+
+# The format for RiderRequest events is:
+# <timestamp> RiderRequest <rider id> <origin> <destination> <patience>
+# <origin>, <destination> are <row>,<col>
+
+# There are 8 Riders that don't cancel at timestamp 0,
+# and 12 Riders in total
+
+0 RiderRequest Oz 1000,1000 5,5   258
+0 RiderRequest Anthony 19,13 8,8  5
+0 RiderRequest Hilton 4,8 20,2    1
+0 RiderRequest Ilhan 0,0 7,13     5
+0 RiderRequest Jillian 15,20 3,13 5
+0 RiderRequest Kaytlyn 9,11 5,11  6
+0 RiderRequest Lesley 3,19 10,1   10
+0 RiderRequest Matthew 36,50 35,0 15
+0 RiderRequest Nathan 0,0 0,0     0
+0 RiderRequest Princess 0,0 0,0   0
+0 RiderRequest Quigley  0,0 0,0   0
+0 RiderRequest Rajan    0,0 0,0   0
